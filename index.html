@@ -530,7 +530,8 @@ function renderEntities() {
     <div class="ent-card" onclick="navigator.clipboard.writeText('${entity}').then(()=>toast('Copied ${entity} ✓'))" title="Click to copy ${entity}">
       <span class="ent-char">${char}</span>
       <div class="ent-info"><div class="ent-name">${entity}</div><div class="ent-desc">${desc}</div></div>
-    </div>`).join('');
+      <a href="https://shiffasultan-collab.github.io/uuidcraft/">UUIDCraft</a>
+</div>`).join('');
 }
 
 // ── Utils ─────────────────────────────────────────────────────────────────
